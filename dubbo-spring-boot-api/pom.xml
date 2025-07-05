@@ -2,15 +2,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>dubbo-spring-boot-demo</artifactId>
+        <groupId>com.oycm</groupId>
+        <version>1.0</version>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.oycm</groupId>
-    <artifactId>dubbo-spring-boot-demo</artifactId>
-    <packaging>pom</packaging>
-    <version>1.0</version>
-    <modules>
-        <module>dubbo-spring-boot-api</module>
-    </modules>
+    <artifactId>dubbo-spring-boot-api</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
